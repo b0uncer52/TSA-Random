@@ -1,0 +1,90 @@
+body {
+	height: 760px;
+	width: 850px;
+	margin: 0;
+	padding: 0;
+	background-color: blue;
+}
+#whole {
+	width: 100%;
+	margin: 0;
+	height: 100%;
+}
+.left, .right {
+	visibility: hidden;
+}
+#leftpoint {
+	position: absolute;
+	left: 28%;
+	top: 20%;
+	border-right: 100px solid yellow;
+	border-bottom: 100px solid transparent;
+	border-top: 100px solid transparent;
+}
+#rightpoint {
+	position: absolute;
+	right: 28%;
+	top: 20%;
+	border-left: 100px solid yellow;
+	border-bottom: 100px solid transparent;
+	border-top: 100px solid transparent;
+}
+#stem {
+	position: absolute;
+	top: 45%;
+	width: 8%;
+	height: 20%;
+	left: 46%;
+	background-color: yellow;
+}
+#hiderright {
+	overflow: hidden;
+	position: absolute;
+	top: 28%;
+	left: 46%;
+	width: 14.2%;
+	height: 17.5%;
+}
+#rightcurl {
+	background-color: yellow;
+	width: 200%;
+	height: 200%;
+	border-radius: 50%;
+}
+#insideright {
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 56.5%;
+}
+#hiderleft {
+	overflow: hidden;
+	position: absolute;
+	top: 28%;
+	right: 46%;
+	width: 14.2%;
+	height: 17.5%;
+}
+#leftcurl {
+	background-color: yellow;
+	position: absolute;
+	right: 0;
+	width: 200%;
+	height: 200%;
+	border-radius: 50%;
+}
+#insideleft {
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	right: 56.6%;
+}
+.visible {
+	visibility: visible;
+}
